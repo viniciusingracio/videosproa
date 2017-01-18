@@ -1,0 +1,51 @@
+html {
+    font: 15pt Arial;
+}
+body {
+    background: url("../_imagens/fundo_proa.jpeg") no-repeat top center fixed;
+    background-size: cover ;
+}
+div::before {
+    /*content: " Mensagem de Natal da SEPLAN ";*/
+    font: 10pt Arial;
+    font-weight: bold;
+    color: white;
+    background-color: #273747;
+    padding: 5px;
+    display: compact;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 300px;
+}
+div {
+    background-color: rgba(255,255,255,.8);
+    margin: 50px auto 60px auto;
+    padding: 10px;
+    width: 600px;
+    min-height:150px;
+}
+a {
+    color: #151e7e;
+    text-decoration: none;
+    font-weight: bold;
+    font: 13pt Arial;
+}
+a:hover {
+    text-decoration: underline;
+}
+span.foco {
+    font-weight: bold;
+    color: #7e050c;
+}
+div#listavideos {
+    margin-top: 50px;
+}
+
+div#listavideos h3 {
+    font-family: 'Oxygen', sans-serif;
+}
+
+div#lista li {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
